@@ -1,4 +1,4 @@
-FROM qnib/alplain-init
+FROM qnib/alplain-init:edge
 
 ## Copied from: https://github.com/anapsix/docker-alpine-java/blob/master/8/jdk/Dockerfile
 # Java Version and other ENV
