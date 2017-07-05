@@ -59,4 +59,5 @@ RUN apk add --no-cache wget ca-certificates curl \
            ${JAVA_HOME}/lib/oblique-fonts \
            ${JAVA_HOME}/lib/plugin.jar \
            /tmp/* /var/cache/apk/* \
- && echo 'hosts: files mdns4_minimal [NOTFOUND=return] dns mdns4' >> /etc/nsswitch.conf
+ && echo 'hosts: files mdns4_minimal [NOTFOUND=return] dns mdns4' >> /etc/nsswitch.conf \
+ && java -version
